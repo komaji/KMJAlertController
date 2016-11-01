@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B8900021DCC986C00612C2E /* KMJAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8900011DCC986C00612C2E /* KMJAlertController.swift */; };
 		2B89FFCC1DC8D99400612C2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B89FFCB1DC8D99400612C2E /* AppDelegate.swift */; };
 		2B89FFCE1DC8D99400612C2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B89FFCD1DC8D99400612C2E /* ViewController.swift */; };
 		2B89FFD11DC8D99400612C2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B89FFCF1DC8D99400612C2E /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B8900011DCC986C00612C2E /* KMJAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KMJAlertController.swift; path = ../../KMJAlertController/KMJAlertController.swift; sourceTree = "<group>"; };
 		2B89FFC81DC8D99400612C2E /* KMJAlertControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMJAlertControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B89FFCB1DC8D99400612C2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B89FFCD1DC8D99400612C2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		2B89FFCA1DC8D99400612C2E /* KMJAlertControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2B8900011DCC986C00612C2E /* KMJAlertController.swift */,
 				2B89FFCB1DC8D99400612C2E /* AppDelegate.swift */,
 				2B89FFCD1DC8D99400612C2E /* ViewController.swift */,
 				2B89FFCF1DC8D99400612C2E /* Main.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				2B89FFCE1DC8D99400612C2E /* ViewController.swift in Sources */,
 				2B89FFCC1DC8D99400612C2E /* AppDelegate.swift in Sources */,
+				2B8900021DCC986C00612C2E /* KMJAlertController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

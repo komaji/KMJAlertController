@@ -10,6 +10,7 @@
 		2B89FFAF1DC8D96E00612C2E /* KMJAlertController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B89FFA51DC8D96E00612C2E /* KMJAlertController.framework */; };
 		2B89FFB41DC8D96E00612C2E /* KMJAlertControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B89FFB31DC8D96E00612C2E /* KMJAlertControllerTests.swift */; };
 		2B89FFB61DC8D96E00612C2E /* KMJAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B89FFA81DC8D96E00612C2E /* KMJAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B89FFFA1DC8DA0C00612C2E /* KMJAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B89FFF91DC8DA0C00612C2E /* KMJAlertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		2B89FFAE1DC8D96E00612C2E /* KMJAlertControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMJAlertControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B89FFB31DC8D96E00612C2E /* KMJAlertControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMJAlertControllerTests.swift; sourceTree = "<group>"; };
 		2B89FFB51DC8D96E00612C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B89FFF91DC8DA0C00612C2E /* KMJAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMJAlertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				2B89FFA81DC8D96E00612C2E /* KMJAlertController.h */,
 				2B89FFA91DC8D96E00612C2E /* Info.plist */,
+				2B89FFF91DC8DA0C00612C2E /* KMJAlertController.swift */,
 			);
 			path = KMJAlertController;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 					2B89FFA41DC8D96E00612C2E = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = CBSJ3QK7A2;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					2B89FFAD1DC8D96E00612C2E = {
@@ -198,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B89FFFA1DC8DA0C00612C2E /* KMJAlertController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +327,7 @@
 		2B89FFBA1DC8D96E00612C2E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = CBSJ3QK7A2;
@@ -334,6 +340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = komaji.io.KMJAlertController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +348,7 @@
 		2B89FFBB1DC8D96E00612C2E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = CBSJ3QK7A2;
@@ -360,6 +368,7 @@
 		2B89FFBD1DC8D96E00612C2E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = CBSJ3QK7A2;
 				INFOPLIST_FILE = KMJAlertControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +381,7 @@
 		2B89FFBE1DC8D96E00612C2E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = CBSJ3QK7A2;
 				INFOPLIST_FILE = KMJAlertControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
