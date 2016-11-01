@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B89FFCC1DC8D99400612C2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B89FFCB1DC8D99400612C2E /* AppDelegate.swift */; };
+		2B89FFCE1DC8D99400612C2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B89FFCD1DC8D99400612C2E /* ViewController.swift */; };
+		2B89FFD11DC8D99400612C2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B89FFCF1DC8D99400612C2E /* Main.storyboard */; };
+		2B89FFD31DC8D99400612C2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B89FFD21DC8D99400612C2E /* Assets.xcassets */; };
+		2B89FFD61DC8D99400612C2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B89FFD41DC8D99400612C2E /* LaunchScreen.storyboard */; };
+		2B89FFE11DC8D99400612C2E /* KMJAlertControllerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B89FFE01DC8D99400612C2E /* KMJAlertControllerDemoTests.swift */; };
+		2B89FFEC1DC8D99400612C2E /* KMJAlertControllerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B89FFEB1DC8D99400612C2E /* KMJAlertControllerDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B89FFDD1DC8D99400612C2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B89FFC01DC8D99400612C2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B89FFC71DC8D99400612C2E;
+			remoteInfo = KMJAlertControllerDemo;
+		};
+		2B89FFE81DC8D99400612C2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B89FFC01DC8D99400612C2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B89FFC71DC8D99400612C2E;
+			remoteInfo = KMJAlertControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B89FFC81DC8D99400612C2E /* KMJAlertControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMJAlertControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B89FFCB1DC8D99400612C2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B89FFCD1DC8D99400612C2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B89FFD01DC8D99400612C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B89FFD21DC8D99400612C2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B89FFD51DC8D99400612C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B89FFD71DC8D99400612C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B89FFDC1DC8D99400612C2E /* KMJAlertControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMJAlertControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B89FFE01DC8D99400612C2E /* KMJAlertControllerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMJAlertControllerDemoTests.swift; sourceTree = "<group>"; };
+		2B89FFE21DC8D99400612C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B89FFE71DC8D99400612C2E /* KMJAlertControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMJAlertControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B89FFEB1DC8D99400612C2E /* KMJAlertControllerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMJAlertControllerDemoUITests.swift; sourceTree = "<group>"; };
+		2B89FFED1DC8D99400612C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B89FFC51DC8D99400612C2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B89FFD91DC8D99400612C2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B89FFE41DC8D99400612C2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B89FFBF1DC8D99400612C2E = {
+			isa = PBXGroup;
+			children = (
+				2B89FFCA1DC8D99400612C2E /* KMJAlertControllerDemo */,
+				2B89FFDF1DC8D99400612C2E /* KMJAlertControllerDemoTests */,
+				2B89FFEA1DC8D99400612C2E /* KMJAlertControllerDemoUITests */,
+				2B89FFC91DC8D99400612C2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B89FFC91DC8D99400612C2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B89FFC81DC8D99400612C2E /* KMJAlertControllerDemo.app */,
+				2B89FFDC1DC8D99400612C2E /* KMJAlertControllerDemoTests.xctest */,
+				2B89FFE71DC8D99400612C2E /* KMJAlertControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B89FFCA1DC8D99400612C2E /* KMJAlertControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2B89FFCB1DC8D99400612C2E /* AppDelegate.swift */,
+				2B89FFCD1DC8D99400612C2E /* ViewController.swift */,
+				2B89FFCF1DC8D99400612C2E /* Main.storyboard */,
+				2B89FFD21DC8D99400612C2E /* Assets.xcassets */,
+				2B89FFD41DC8D99400612C2E /* LaunchScreen.storyboard */,
+				2B89FFD71DC8D99400612C2E /* Info.plist */,
+			);
+			path = KMJAlertControllerDemo;
+			sourceTree = "<group>";
+		};
+		2B89FFDF1DC8D99400612C2E /* KMJAlertControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B89FFE01DC8D99400612C2E /* KMJAlertControllerDemoTests.swift */,
+				2B89FFE21DC8D99400612C2E /* Info.plist */,
+			);
+			path = KMJAlertControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		2B89FFEA1DC8D99400612C2E /* KMJAlertControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B89FFEB1DC8D99400612C2E /* KMJAlertControllerDemoUITests.swift */,
+				2B89FFED1DC8D99400612C2E /* Info.plist */,
+			);
+			path = KMJAlertControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B89FFC71DC8D99400612C2E /* KMJAlertControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B89FFF01DC8D99400612C2E /* Build configuration list for PBXNativeTarget "KMJAlertControllerDemo" */;
+			buildPhases = (
+				2B89FFC41DC8D99400612C2E /* Sources */,
+				2B89FFC51DC8D99400612C2E /* Frameworks */,
+				2B89FFC61DC8D99400612C2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMJAlertControllerDemo;
+			productName = KMJAlertControllerDemo;
+			productReference = 2B89FFC81DC8D99400612C2E /* KMJAlertControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B89FFDB1DC8D99400612C2E /* KMJAlertControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B89FFF31DC8D99400612C2E /* Build configuration list for PBXNativeTarget "KMJAlertControllerDemoTests" */;
+			buildPhases = (
+				2B89FFD81DC8D99400612C2E /* Sources */,
+				2B89FFD91DC8D99400612C2E /* Frameworks */,
+				2B89FFDA1DC8D99400612C2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B89FFDE1DC8D99400612C2E /* PBXTargetDependency */,
+			);
+			name = KMJAlertControllerDemoTests;
+			productName = KMJAlertControllerDemoTests;
+			productReference = 2B89FFDC1DC8D99400612C2E /* KMJAlertControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B89FFE61DC8D99400612C2E /* KMJAlertControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B89FFF61DC8D99400612C2E /* Build configuration list for PBXNativeTarget "KMJAlertControllerDemoUITests" */;
+			buildPhases = (
+				2B89FFE31DC8D99400612C2E /* Sources */,
+				2B89FFE41DC8D99400612C2E /* Frameworks */,
+				2B89FFE51DC8D99400612C2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B89FFE91DC8D99400612C2E /* PBXTargetDependency */,
+			);
+			name = KMJAlertControllerDemoUITests;
+			productName = KMJAlertControllerDemoUITests;
+			productReference = 2B89FFE71DC8D99400612C2E /* KMJAlertControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B89FFC01DC8D99400612C2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = komaji;
+				TargetAttributes = {
+					2B89FFC71DC8D99400612C2E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CBSJ3QK7A2;
+						ProvisioningStyle = Automatic;
+					};
+					2B89FFDB1DC8D99400612C2E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CBSJ3QK7A2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B89FFC71DC8D99400612C2E;
+					};
+					2B89FFE61DC8D99400612C2E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CBSJ3QK7A2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B89FFC71DC8D99400612C2E;
+					};
+				};
+			};
+			buildConfigurationList = 2B89FFC31DC8D99400612C2E /* Build configuration list for PBXProject "KMJAlertControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B89FFBF1DC8D99400612C2E;
+			productRefGroup = 2B89FFC91DC8D99400612C2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B89FFC71DC8D99400612C2E /* KMJAlertControllerDemo */,
+				2B89FFDB1DC8D99400612C2E /* KMJAlertControllerDemoTests */,
+				2B89FFE61DC8D99400612C2E /* KMJAlertControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B89FFC61DC8D99400612C2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B89FFD61DC8D99400612C2E /* LaunchScreen.storyboard in Resources */,
+				2B89FFD31DC8D99400612C2E /* Assets.xcassets in Resources */,
+				2B89FFD11DC8D99400612C2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B89FFDA1DC8D99400612C2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B89FFE51DC8D99400612C2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B89FFC41DC8D99400612C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B89FFCE1DC8D99400612C2E /* ViewController.swift in Sources */,
+				2B89FFCC1DC8D99400612C2E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B89FFD81DC8D99400612C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B89FFE11DC8D99400612C2E /* KMJAlertControllerDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B89FFE31DC8D99400612C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B89FFEC1DC8D99400612C2E /* KMJAlertControllerDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B89FFDE1DC8D99400612C2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B89FFC71DC8D99400612C2E /* KMJAlertControllerDemo */;
+			targetProxy = 2B89FFDD1DC8D99400612C2E /* PBXContainerItemProxy */;
+		};
+		2B89FFE91DC8D99400612C2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B89FFC71DC8D99400612C2E /* KMJAlertControllerDemo */;
+			targetProxy = 2B89FFE81DC8D99400612C2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B89FFCF1DC8D99400612C2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B89FFD01DC8D99400612C2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B89FFD41DC8D99400612C2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B89FFD51DC8D99400612C2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B89FFEE1DC8D99400612C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B89FFEF1DC8D99400612C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B89FFF11DC8D99400612C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CBSJ3QK7A2;
+				INFOPLIST_FILE = KMJAlertControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = komaji.io.KMJAlertControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2B89FFF21DC8D99400612C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CBSJ3QK7A2;
+				INFOPLIST_FILE = KMJAlertControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = komaji.io.KMJAlertControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2B89FFF41DC8D99400612C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CBSJ3QK7A2;
+				INFOPLIST_FILE = KMJAlertControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = komaji.io.KMJAlertControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMJAlertControllerDemo.app/KMJAlertControllerDemo";
+			};
+			name = Debug;
+		};
+		2B89FFF51DC8D99400612C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CBSJ3QK7A2;
+				INFOPLIST_FILE = KMJAlertControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = komaji.io.KMJAlertControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMJAlertControllerDemo.app/KMJAlertControllerDemo";
+			};
+			name = Release;
+		};
+		2B89FFF71DC8D99400612C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CBSJ3QK7A2;
+				INFOPLIST_FILE = KMJAlertControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = komaji.io.KMJAlertControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KMJAlertControllerDemo;
+			};
+			name = Debug;
+		};
+		2B89FFF81DC8D99400612C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CBSJ3QK7A2;
+				INFOPLIST_FILE = KMJAlertControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = komaji.io.KMJAlertControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KMJAlertControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B89FFC31DC8D99400612C2E /* Build configuration list for PBXProject "KMJAlertControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B89FFEE1DC8D99400612C2E /* Debug */,
+				2B89FFEF1DC8D99400612C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B89FFF01DC8D99400612C2E /* Build configuration list for PBXNativeTarget "KMJAlertControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B89FFF11DC8D99400612C2E /* Debug */,
+				2B89FFF21DC8D99400612C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B89FFF31DC8D99400612C2E /* Build configuration list for PBXNativeTarget "KMJAlertControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B89FFF41DC8D99400612C2E /* Debug */,
+				2B89FFF51DC8D99400612C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B89FFF61DC8D99400612C2E /* Build configuration list for PBXNativeTarget "KMJAlertControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B89FFF71DC8D99400612C2E /* Debug */,
+				2B89FFF81DC8D99400612C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B89FFC01DC8D99400612C2E /* Project object */;
+}
