@@ -24,11 +24,19 @@
                                     <action selector="alertButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oIa-0x-xdy"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3OZ-jw-EtU">
+                                <state key="normal" title="Action Sheet"/>
+                                <connections>
+                                    <action selector="actionSheetDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Xl-hD-nak"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="rQo-lr-kAO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-32" id="8ui-W1-UcK"/>
                             <constraint firstItem="rQo-lr-kAO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DJV-Zd-qZ6"/>
+                            <constraint firstItem="3OZ-jw-EtU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MUN-Oe-Bgg"/>
+                            <constraint firstItem="3OZ-jw-EtU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="32" id="vcI-xK-NJk"/>
                         </constraints>
                     </view>
                 </viewController>

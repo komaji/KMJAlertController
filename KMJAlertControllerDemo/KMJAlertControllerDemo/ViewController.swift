@@ -28,5 +28,28 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func actionSheetDidTap(_ sender: UIButton) {
+        KMJAlertController.showActionSheet(viewController: self,
+                                           title: "Action Sheet Title",
+                                           message: "Action Sheet Message",
+                                           cancelButtonTitle: "Cancel",
+                                           destructiveButtonTitle: "Destructive",
+                                           defaultButtonTitles: ["Default0", "Default1"],
+                                           popoverPresentationControllerHandler: { popover in
+                                            popover.sourceView = self.view
+                                            popover.sourceRect = sender.frame
+        },
+                                           handler: { alert, action, button in
+                                            switch button.style {
+                                            case .Cancel:
+                                                print("Cancel")
+                                            case .Destructive:
+                                                print("Destructive")
+                                            case .Default:
+                                                print("Default\(button.indexInDefault!)")
+                                            }
+        })
+    }
+    
 }
 
