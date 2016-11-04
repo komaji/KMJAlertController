@@ -10,16 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBAction func alertButtonDidTap(_ sender: UIButton) {
+        KMJAlertController.showAlert(viewController: self,
+                                     title: "Alert Title",
+                                     message: "Alert Message",
+                                     cancelButtonTitle: "Cancel",
+                                     destructiveButtonTitle: "Destructive",
+                                     defaultButtonTitles: ["Default0", "Default1"]) { alert, action, button in
+                                        switch button.style {
+                                        case .Cancel:
+                                            print("Cancel")
+                                        case .Destructive:
+                                            print("Destructive")
+                                        case .Default:
+                                            print("Default\(button.indexInDefault!)")
+                                        }
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
 }
 
