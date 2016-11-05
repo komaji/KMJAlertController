@@ -9,28 +9,54 @@
 import XCTest
 
 class KMJAlertControllerDemoUITests: XCTestCase {
-        
+    
+    let app = XCUIApplication()
+
     override func setUp() {
         super.setUp()
         
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-        
-        // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
-        // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
         XCUIApplication().launch()
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
-    }
+   }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testShowAlert() {
+        app.buttons["Alert"].tap()
+        XCTAssertTrue(app.alerts["Alert Title"].staticTexts["Alert Message"].exists)
+        app.alerts["Alert Title"].buttons["Cancel"].tap()
+        
+        app.buttons["Alert"].tap()
+        app.alerts["Alert Title"].buttons["Destructive"].tap()
+
+        app.buttons["Alert"].tap()
+        app.alerts["Alert Title"].buttons["Default0"].tap()
+
+        app.buttons["Alert"].tap()
+        app.alerts["Alert Title"].buttons["Default1"].tap()
+    }
+    
+    func testShowActionSheet() {
+        app.buttons["Action Sheet"].tap()
+        XCTAssertTrue(app.sheets["Action Sheet Title"].staticTexts["Action Sheet Message"].exists)
+
+        if UIDevice.current.userInterfaceIdiom == .phone {
+            app.sheets["Action Sheet Title"].buttons["Cancel"].tap()
+
+            app.buttons["Action Sheet"].tap()
+        } else if UIDevice.current.userInterfaceIdiom == .pad {
+            XCTAssertFalse(app.popovers["Action Sheet Title"].buttons["Cancel"].exists)
+        }
+        
+        app.sheets["Action Sheet Title"].buttons["Destructive"].tap()
+        
+        app.buttons["Action Sheet"].tap()
+        app.sheets["Action Sheet Title"].buttons["Default0"].tap()
+        
+        app.buttons["Action Sheet"].tap()
+        app.sheets["Action Sheet Title"].buttons["Default1"].tap()
     }
     
 }
