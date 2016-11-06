@@ -1,0 +1,3 @@
+language: objective-c
+osx_image: xcode8
+script: "xcodebuild test -scheme KMJAlertControllerDemo -destination 'platform=iOS Simulator,OS=10.0,name=iPhone 7'
